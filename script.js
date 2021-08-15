@@ -17,6 +17,7 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() {
 
 }
+//password var's
 var passwordAlphabet = ["a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z"]
 
 var passwordCapAlphabet = ["A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"]
@@ -24,3 +25,8 @@ var passwordCapAlphabet = ["A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z"
 var passwordSpecialChar = ["!,@,#,$,%,^,&,*,?"]
 
 var passwordNumb = ["0,1,2,3,4,5,6,7,8,9"]
+
+//for-loop for password var's
+for (var i = 0; i < passwordAlphabet.length; i++) {
+  console.log("Continue to add lowercase letters." + passwordAlphabet[i]);
+}
