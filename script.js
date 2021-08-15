@@ -30,3 +30,15 @@ var passwordNumb = ["0,1,2,3,4,5,6,7,8,9"]
 for (var i = 0; i < passwordAlphabet.length; i++) {
   console.log("Continue to add lowercase letters." + passwordAlphabet[i]);
 }
+
+for (var i = 0; i < passwordCapAlphabet.length; i++) {
+  console.log("Continue to add uppercase letters." + passwordCapAlphabet[i]);
+}
+
+for (var i = 0; i < passwordSpecialChar.length; i++) {
+  console.log("Contunue to add special characters." + passwordSpecialChar[i]);
+}
+
+for (var i = 0; i < passwordNumb.length; i++) {
+  console.log("Continue to add numbers." + passwordNumb[i]);
+}
