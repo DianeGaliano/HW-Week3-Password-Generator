@@ -45,14 +45,12 @@ for (var i = 0; i < passwordNumb.length; i++) {
 
 var length = prompt("How long do you want your password to be");
 
-if (length > 8) {
+if (length === true) {
   var passwordAlphabet = propmt ("Please click on Ok to add a lowercase letter.");
   if(passwordLength < 8)
   alert("Password must be at least 8 characters long!");
-} else {
-  var passwordCapAlphabet = prompt("Please click on Ok to add a capitol letter");
- 
+} 
 
   
-}
+
 
