@@ -42,3 +42,11 @@ for (var i = 0; i < passwordSpecialChar.length; i++) {
 for (var i = 0; i < passwordNumb.length; i++) {
   console.log("Continue to add numbers." + passwordNumb[i]);
 }
+
+function writePassword( ) {
+  console.log("Crate your password! How long do you want your password to be")
+  return;
+}
+
+writePassword();
+
