@@ -51,6 +51,13 @@ if (length === true) {
   alert("Password must be at least 8 characters long!");
 } 
 
+// Events when the generate button is pushed
+function showResponse(event) {
+  event.preventDefault();
+  console.log(event);
+  var generate = passwordAlphabet + passwordCapAlphabet + passwordSpecialChar + passwordNumb;
+  passwordText.value = password;
   
+}
 
 
